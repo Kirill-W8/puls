@@ -1,0 +1,186 @@
+@import '../wb/variables';
+ *{
+    font-family: 'Museo Sans Cyrl', sans-serif;
+ }
+ .container{
+    max-width: 950px;
+    margin: 0 auto;
+    
+}
+.promo{
+    height: 650px;
+    padding: 21px 0 93px 0;
+    background: url(../../img/bg.png) center center/cover no-repeat;
+    &_title{
+        text-align: right;
+        text-transform: uppercase;
+        font-weight: 700;
+        color:#fff;
+        font-size: 42px;
+        line-height: 42px;
+        margin-top: 91px;
+    }
+    &_subtitle{
+        text-align: right;
+        color:#fff;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin-top: 17px;
+
+    }
+    &_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &_icons{
+        margin-top: 60px;
+        width: 425px;
+        display: flex;
+        justify-content: space-between;
+    }  
+    &_icon{
+       
+        width: 108px;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 24px;
+        }
+    } 
+    &_link{
+        margin-top: 8px;
+        font-style: 16px;
+        color:#FFF;
+        font-weight: 300;
+        a{
+            font-style: 16px;
+            color:#FFF;
+            text-transform: uppercase;
+            font-weight: 300;
+            text-decoration: underline;
+        }
+    } 
+    .button{
+            
+        width: 303px;
+        height: 54px;
+        background-color: red;
+        border-radius: 3%;
+        color:#fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        border: none;
+        font-weight: 500;
+        margin-top: 67px;
+    }  
+        
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_official{
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+    }
+
+    &_logo{
+        width: 250px;
+        height: 45px;
+
+    }
+    span{
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        padding-top: 7px;
+    }
+    &_num{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .header_phone{
+            font-size: 18px;
+            font-weight: 700;
+            color:#fff;
+            text-decoration: none;
+            display: block;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        .button{
+            
+            width: 152px;
+            height: 32px;
+            background-color: red;
+            border-radius: 7%;
+            color:#fff;
+            font-size: 12px;
+            text-transform: uppercase;
+            border: none;
+            margin-top: 1px;
+        }
+    }
+    
+}
+
+.subpromo{
+    height: 480px;
+    background-color: #F6F6F6;
+    .d{
+        font-size: 1px;
+    }
+    .advanteges{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 60px;
+        margin-top: 75px;
+    }
+    &_wrapper{
+        display: flex;
+        justify-content: space-between;
+       
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+        span{
+            text-transform: uppercase;
+            color: red;
+            text-decoration: underline;
+        }
+    }
+    .text{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .subtext{
+        width: 275px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.consultation{
+    height: 680px;
+    background: url(../../img/bg2.png) center (center/cover) no-repeat;
+}
